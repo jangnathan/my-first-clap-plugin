@@ -80,7 +80,7 @@ install_header_only_lib("https://github.com/free-audio/clap.git",
 
 install_header_only_lib("https://github.com/free-audio/clap-helpers.git",
                         os.path.join("clap", "helpers"), 
-                        "clap-helpers")
+                        os.path.join("clap", "helpers"))
 
 install_header_only_lib_files("https://github.com/cameron314/readerwriterqueue.git",
                               {"atomicops.h", "readerwriterqueue.h"},
